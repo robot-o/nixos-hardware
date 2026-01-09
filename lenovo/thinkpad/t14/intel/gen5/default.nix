@@ -22,7 +22,7 @@
   services.system76-scheduler.settings.cfsProfiles.enable = lib.mkDefault true;
   services.thermald.enable = lib.mkDefault true;
   hardware.system76.power-daemon.enable = lib.mkDefault true;
-  services.power-profile-daemon.enable = lib.mkDefault true;
+  services.power-profiles-daemon.enable = lib.mkDefault true;
   # Alternate solution using tlp: (disable ppd and thermald if using this)
   # services.tlp = {
   #   enable = lib.mkDefault true;
