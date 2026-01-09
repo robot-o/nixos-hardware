@@ -17,7 +17,8 @@
   # which can interfere with newer power management on Meteor Lake
   services.throttled.enable = lib.mkDefault false;
 
-  services.powertop.enable = lib.mkDefault true;
+  powerManagement.enable = lib.mkDefault true;
+  powerManagement.powertop.enable = lib.mkDefault true;
   services.system76-scheduler.enable = lib.mkDefault true;
   services.system76-scheduler.settings.cfsProfiles.enable = lib.mkDefault true;
   services.thermald.enable = lib.mkDefault true;
