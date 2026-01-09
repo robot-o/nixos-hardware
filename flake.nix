@@ -278,6 +278,7 @@
           lenovo-thinkpad-t14-amd-gen5 = import ./lenovo/thinkpad/t14/amd/gen5;
           lenovo-thinkpad-t14-intel-gen1 = import ./lenovo/thinkpad/t14/intel/gen1;
           lenovo-thinkpad-t14-intel-gen1-nvidia = import ./lenovo/thinkpad/t14/intel/gen1/nvidia;
+          lenovo-thinkpad-t14-intel-gen5 = import ./lenovo/thinkpad/t14/intel/gen5;
           lenovo-thinkpad-t14-intel-gen6 = import ./lenovo/thinkpad/t14/intel/gen6;
           lenovo-thinkpad-t14s = import ./lenovo/thinkpad/t14s;
           lenovo-thinkpad-t14s-amd-gen1 = import ./lenovo/thinkpad/t14s/amd/gen1;
